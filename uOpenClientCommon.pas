@@ -2270,8 +2270,8 @@ var
   //亿诚通讯中心
   TelCenterInterfaceUrl:String;
 
-
-
+  //旋风在线接口地址
+  XFOlineRestServiceUrl:String;
 
 var
   //程序ID(公共配置,用于济胜汽修)
@@ -2378,6 +2378,7 @@ begin
   PromotionCenterInterfaceUrl:=InterfaceUrl+'promotioncenter/';
   TelCenterInterfaceUrl:=InterfaceUrl+'telcenter/';
 
+  XFOlineRestServiceUrl:=InterfaceUrl+'xfonline/';
 
   //图片上传下载地址
   ImageHttpServerUrl:='http://'+AServer+':'+IntToStr(APort+1);
